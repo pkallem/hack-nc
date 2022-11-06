@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@350&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  margin-top: 90px;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+}
+
+.header {
+  background-color: #f5f2f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 9%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav_bar {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding-top: 4px;
+}
+
+.nav_bar li a {
+  text-decoration: none;
+  color: #6a7475;
+  font-size: 18px;
+}
+
+.nav_bar li a:hover {
+  color: #222626;
+}
+
+.login {
+  padding: 10px 16px 4px;
+  font-size: 20px;
+  border: 2px #41bf52 solid;
+  border-radius: 4px;
+  color: #41bf52;
+  background-color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.introduction {
+  background-image: url("background2.gif");
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 10%;
+  gap: 16px;
+}
+
+.goals li {
+  margin: 10px 0 20px;
+  font-size: 20px;
+}
+
+.white-line {
+  border: 1px white solid;
+  width: 100%;
+}
+
+.applicability {
+  background-color: #f5f2f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6% 9%;
+}
+
+.applicability .applicability-text {
+  margin-top: 16px;
+  line-height: 2;
+}
+
+.future {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 9%;
+}
+
+.green-line {
+  border: 1px green solid;
+  width: 100%;
+  margin: 12px;
+}
