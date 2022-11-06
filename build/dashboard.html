@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/css/expandability.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="header">
+      <a href="index.html"
+        ><img
+          src="static/media/submarine.png"
+          alt="HACKNC 2022 Submarine Logo"
+          class="logo"
+      /></a>
+      <ul class="nav_bar">
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="expandability.html">Future Expandability</a></li>
+        <!-- <li class="button_list">
+          <a href="login.html"> <button class="login" href="">LOGIN</button></a>
+        </li> -->
+      </ul>
+    </div>
+
+    <div class="introduction">
+      <h1>DASHBOARD</h1>
+    </div>
+
+    <div class="applicability">
+      <h1>GOOGLE COLAB</h1>
+      <p class="applicability-text">
+        All data from the real-time firebase database will be synched with the Google Colab when the file is run. 
+        The data is used to create visualizations, which will update each time the code runs. Numpy was used for 
+        the graphs. 
+      </p>
+      <p>
+        Data goes from:
+        Arduino -> Raspberri Pi -> Firebase -> Google Colab
+      </p>
+      <a href="https://colab.research.google.com/drive/1wMcKcaA9H38IYqFGS_70bfHcIn-liRiD?usp=sharing">https://colab.research.google.com/drive/1wMcKcaA9H38IYqFGS_70bfHcIn-liRiD?usp=sharing</a>
+    </div>
+
+    <script src="https://gist.github.com/pkallem/7d2cf9f4ad55c3b94baa1e8d07362608.js"></script>
+  </body>
+</html>
