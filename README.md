@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# AgTech
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+The health of soil and its quality have been rapidly declining globally in recent years. The fact that farmers and producers lack information on the crops is one problem that makes this issue worse. Data on soil quality such as moisture and temperature can play a big part in combating climate change and landscape degradation. If properly maintained soil stores carbon, lowering greenhouse gas emissions in the atmosphere. If soils are poorly maintained or cultivated using unsustainable agricultural methods, soil carbon may be released into the atmosphere as carbon dioxide, which can further climate change, negatively impacting the environment and farmers alike.
 
-## Available Scripts
+## What it does
+AgTech measures 5 important aspects: Temperature, Humidity, Heat index, Water level and Object detection. 
 
-In the project directory, you can run:
+## How we built it
+AgTech is built with HTML, CSS, Json, and React. 
 
-### `npm start`
+## Challenges we ran into
+The biggest challenge that we faced was the time constraint! 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Accomplishments that we're proud of
+As we went on with the project we kept adding ideas and implementing them into the project. Our website was one of our greatest accomplishments as we add little features to increase the aesthetic through formatting and gifs. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What we learned
+Our team gained a great deal of insight into our individual strengths and shortcomings.
+We were all brought together by our preparation and communication. We all played to our strengths as some of us were more versed in HTML while others with Arduino 
 
-### `npm test`
+## What's next for AgTech 
+Moving forward with AgTech, we would like to create personalized pages for agriculture businesses and farmers, provide precise feedback and recommendations for future planning based on the gathered analytics, as well as assist farmers with automation process
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Built With
+HTML, CSS, Json, Firebase and React. 
