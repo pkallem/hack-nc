@@ -19,17 +19,76 @@
       <ul class="nav_bar">
         <li><a href="">Visualizations</a></li>
         <li><a href="">Raw Data</a></li>
-        <li><a href="expandibility.html">Future Expandability</a></li>
+        <li><a href="expandability.html">Future Expandability</a></li>
         <li class="button_list">
-          <button class="login" href="login.html">LOGIN</button>
+          <button
+            class="login"
+            onclick="document.getElementById('id01').style.display='block'"
+          >
+            LOGIN
+          </button>
         </li>
       </ul>
     </div>
 
     <div class="introduction">
-      <h1>PLACEHOLDER</h1>
-      <p>Short Description</p>
-      <button class="read-more">Read More</button>
+      <h1 class="introduction-title">AgTech</h1>
+      <p class="slogan">
+        Supplying farmers with a set of safe, sustainable, and reliable tools.
+      </p>
+      <a href="expandability.html"
+        ><button class="read-more">Read More</button></a
+      >
+    </div>
+
+    <div id="id01" class="modal">
+      <span
+        onclick="document.getElementById('id01').style.display='none'"
+        class="close"
+        title="Close Modal"
+        >&times;</span
+      >
+
+      <form class="modal-content animate" action="/action_page.php">
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="uname"
+            required
+          />
+
+          <label for="psw"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" /> Remember
+            me
+          </label>
+        </div>
+
+        <div class="container" style="background-color: #f1f1f1">
+          <button
+            type="button"
+            onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn"
+          >
+            Cancel
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="measurement-title">
+      <h1 class="question">How/What We Measured?</h1>
+      <div class="line"></div>
     </div>
 
     <div class="measurements">
@@ -40,17 +99,35 @@
           class="clipart"
         />
         <h3>Temperature</h3>
-        <p>Placeholder (how we are measuring)</p>
+        <p>
+          Using a DHT11 Temperature and Humidity Module, we will be taking the
+          temperature (in Fahrenheit) of the surrounding environment. We will be
+          plotting this data to see temperature change over time.
+        </p>
       </div>
       <div class="measure">
         <img src="images/humidity.png" alt="Humidity Clipart" class="clipart" />
         <h3>Humidity</h3>
-        <p>Placeholder (how we are measuring)</p>
+        <p>
+          Using a DHT11 Temperature and Humidity Module, we will be taking the
+          humidity (in percentage) of the surrounding environment. We will be
+          plotting this data to see humidity change over time compared to
+          temperature change.
+        </p>
       </div>
       <div class="measure">
-        <img src="" alt="Water Level Clipart" class="clipart" />
+        <img
+          src="images/waterlevel.png"
+          alt="Water Level Clipart"
+          class="clipart"
+        />
         <h3>Water Level</h3>
-        <p>Placeholder (how we are measuring)</p>
+        <p>
+          Using a Water Level Detection Sensor Module, we will be taking the
+          water level of the specific plants. There will be a water level sensor
+          inside the soil to see how much water is currently in the pot. We will
+          be plotting this data to see temperature change over time.
+        </p>
       </div>
     </div>
 
@@ -58,21 +135,50 @@
       <h1 class="component-title">Components</h1>
       <div class="line"></div>
       <div class="component1">
-        <img src="" alt="IMAGE PLACEHOLDER" />
-        <p>Placeholder of description (Arduino Component)</p>
+        <img src="images/arduino.png" alt="" class="component-image" />
+        <div class="arduino-text">
+          <p>Placeholder of description (Arduino Component)</p>
+        </div>
       </div>
       <div class="component2">
-        <img src="" alt="IMAGE PLACEHOLDER" />
-        <p>Placeholder of description (Arduino Component)</p>
+        <img
+          src="images/humidity_sensor.png"
+          alt="Humidity Sensor"
+          class="component-images"
+        />
+        <div class="arduino-text">
+          <p>Placeholder of description (Arduino Component)</p>
+        </div>
       </div>
       <div class="component1">
-        <img src="" alt="IMAGE PLACEHOLDER" />
-        <p>Placeholder of description (Arduino Component)</p>
+        <img
+          src="images/waterlevel_sensor.png"
+          alt="Water Level Sensor"
+          class="component-images"
+        />
+        <div class="arduino-text">
+          <p>Placeholder of description (Arduino Component)</p>
+        </div>
       </div>
       <div class="component2">
-        <img src="" alt="IMAGE PLACEHOLDER" />
-        <p>Placeholder of description (Arduino Component)</p>
+        <img
+          src="images/ultrasonic_sensor.png"
+          alt="Ultrasonic Sensor"
+          class="component-images"
+        />
+        <div class="arduino-text">
+          <p>Placeholder of description (Arduino Component)</p>
+        </div>
       </div>
     </div>
   </body>
+
+  <script>
+    var modal = document.getElementById("id01");
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
 </html>
