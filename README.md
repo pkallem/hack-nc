@@ -23,4 +23,4 @@ We were all brought together by our preparation and communication. We all played
 Moving forward with AgTech, we would like to create personalized pages for agriculture businesses and farmers, provide precise feedback and recommendations for future planning based on the gathered analytics, as well as assist farmers with automation process
 
 ## Built With
-HTML, CSS, Json, Firebase and React. 
+HTML, CSS, Json, Firebase, Python, Arduino and React. 
